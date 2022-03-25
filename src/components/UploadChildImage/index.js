@@ -65,8 +65,6 @@ export const UploadChildImage = ({ uploadedImage, setUploadedImage }) => {
         Expires: 60,
       });
 
-      console.log(`[INFO]: url | ${url}`);
-
       const formData = new FormData();
 
       Object.entries({ ...fields, file: image }).forEach(([key, value]) => {
@@ -74,8 +72,6 @@ export const UploadChildImage = ({ uploadedImage, setUploadedImage }) => {
       });
 
       const upload = await fetch(url, { method: "POST", body: formData });
-
-      console.log(`[INFO]: upload | ${upload}`);
 
       if (upload.ok) {
         setUploadComplete(true);
@@ -91,7 +87,6 @@ export const UploadChildImage = ({ uploadedImage, setUploadedImage }) => {
         setLoading(false);
       }
     } catch (err) {
-      console.log(`[ERROR]: error | ${err.message}`);
       setAwsError(true);
       setLoading(false);
     }

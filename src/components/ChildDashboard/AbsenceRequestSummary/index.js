@@ -50,7 +50,7 @@ export const AbsenceRequestSummary = ({ childData, fullName }) => {
   return (
     <Stack width="100%">
       <Typography className="headingFont" variant="subtitle1" align="center">
-        Absence Requests:
+        Absence Requests
       </Typography>
       <Typography variant="caption" gutterBottom align="center">
         Click to view status

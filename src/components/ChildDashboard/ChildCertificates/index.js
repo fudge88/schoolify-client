@@ -82,7 +82,7 @@ export const ChildCertificates = ({ childData, certificateImg }) => {
         gutterBottom
         align="center"
       >
-        Certificates:
+        Certificates
       </Typography>
       {childData?.certificates?.length === 0 && (
         <>
@@ -157,20 +157,30 @@ export const ChildCertificates = ({ childData, certificateImg }) => {
             width: "fit-content",
             maxWidth: isMobile ? "60%" : "80%",
             display: "flex",
+            flexDirection: "column",
             flexWrap: "wrap",
-            justifyContent: "space-evenly",
           }}
         >
-          {childData?.certificates?.map((certificate, index) => {
-            return (
-              <ChildCertificateCard
-                key={index}
-                backgroundImage={certificateImg(certificate.certificateType)}
-                studentName={certificate.name}
-                message={certificate.message}
-              />
-            );
-          })}
+          <Typography variant="h4" textAlign="center">
+            MY CERTIFICATES!
+          </Typography>
+          <Box
+            display="flex"
+            flexWrap="wrap"
+            flexDirection="row"
+            justifyContent="space-around"
+          >
+            {childData?.certificates?.map((certificate, index) => {
+              return (
+                <ChildCertificateCard
+                  key={index}
+                  backgroundImage={certificateImg(certificate.certificateType)}
+                  studentName={certificate.name}
+                  message={certificate.message}
+                />
+              );
+            })}
+          </Box>
         </Box>
       </Modal>
     </Stack>

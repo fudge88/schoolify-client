@@ -22,7 +22,7 @@ export const MedicalInfo = ({ childData }) => {
   return (
     <Stack spacing={2} sx={{ textAlign: "center" }}>
       <Typography variant="subtitle1" align="center">
-        Medical Requirements:
+        Medical Requirements
       </Typography>
 
       {!childData.medical ? (

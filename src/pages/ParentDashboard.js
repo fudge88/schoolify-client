@@ -98,8 +98,6 @@ export const ParentDashboard = () => {
     }
   };
 
-  console.log(data);
-
   return (
     <PageContainer>
       {renderLoading()}

@@ -41,6 +41,7 @@ const allergyOptions = [
   "celery",
   "hayfever",
   "other",
+  "N/A",
 ];
 
 const disabilityOptions = [
@@ -52,9 +53,16 @@ const disabilityOptions = [
   "vision",
   "ptsd",
   "adhd",
+  "N/A",
 ];
 
-const medicalOption = ["inhaler", "antibiotics", "epi pen", "stimulants"];
+const medicalOption = [
+  "inhaler",
+  "antibiotics",
+  "epi pen",
+  "stimulants",
+  "N/A",
+];
 
 export const MedicalForm = () => {
   const { loading, error, data } = useQuery(GET_PARENTS_CHILDREN);
@@ -221,6 +229,7 @@ export const MedicalForm = () => {
           label="Additional Info"
           variant="outlined"
           name="additionalInfo"
+          defaultValue="N/A"
           rows={4}
           multiline
           fullWidth

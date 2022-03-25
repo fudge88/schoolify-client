@@ -22,7 +22,7 @@ export const ChildIncidentReports = ({ childData }) => {
   return (
     <Stack sx={{ width: "100%" }}>
       <Typography className="headingFont" variant="subtitle1" align="center">
-        Incident Reports:
+        Incident Reports
       </Typography>
       <Typography variant="caption" gutterBottom align="center">
         Click to view Incident
