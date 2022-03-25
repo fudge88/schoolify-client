@@ -1,4 +1,3 @@
-import GroupsIcon from "@mui/icons-material/Groups";
 import GridViewIcon from "@mui/icons-material/GridView";
 import EventAvailableIcon from "@mui/icons-material/EventAvailable";
 import EventIcon from "@mui/icons-material/Event";

@@ -172,8 +172,8 @@ export const CertificateForm = () => {
           disabled={mutationLoading}
           type="submit"
           variant="contained"
-          startIcon={error && <ErrorIcon />}
-          color={error ? "error" : "warning"}
+          startIcon={mutationError && <ErrorIcon />}
+          color={mutationError ? "error" : "warning"}
         >
           Send certificate
         </LoadingButton>

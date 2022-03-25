@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 
 import { MOBILE, DESKTOP } from "../../media";
 import homeImg from "../../assets/img/homeImg.png";
-import { home, homeContainerStyles } from "../../styles";
+import { homeContainerStyles } from "../../styles";
 
 export const HomePageOne = () => {
   const isMobile = useMediaQuery(MOBILE);

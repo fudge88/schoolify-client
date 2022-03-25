@@ -7,16 +7,12 @@ import homeImg from "../../assets/img/homeImg.png";
 import { useMediaQuery } from "react-responsive";
 import { PageTitle } from "../PageTitle";
 import { useGame } from "../../context/GameProvider";
-import { MOBILE, DESKTOP } from "../../media";
+import { MOBILE } from "../../media";
 
 export const GameForm = () => {
   const isMobile = useMediaQuery(MOBILE);
-  const isDesktop = useMediaQuery(DESKTOP);
 
-  const {
-    state: { category },
-    dispatch,
-  } = useGame();
+  const { dispatch } = useGame();
 
   const onSubmit = (event) => {
     event.preventDefault();

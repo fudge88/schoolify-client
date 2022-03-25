@@ -1,10 +1,10 @@
-import { IncidentReportForm } from '../components/IncidentReportForm';
-import { PageContainer } from '../components/PageContainer';
+import { IncidentReportForm } from "../components/IncidentReportForm";
+import { PageContainer } from "../components/PageContainer";
 
 export const TeacherIncidentReport = () => {
-	return (
-		<PageContainer>
-			<IncidentReportForm />
-		</PageContainer>
-	);
+  return (
+    <PageContainer>
+      <IncidentReportForm />
+    </PageContainer>
+  );
 };

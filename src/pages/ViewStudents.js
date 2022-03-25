@@ -6,7 +6,6 @@ import { useAuth } from "../context/AppProvider";
 import { GET_TEACHER_STUDENTS } from "../graphql/query";
 import { useQuery } from "@apollo/client";
 
-import Alert from "@mui/material/Alert";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import { Loading } from "../components/Loading";

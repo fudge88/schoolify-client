@@ -157,7 +157,6 @@ export const ParentsAbsenceRequestTable = () => {
       )}
 
       {!isTablet && (
-
         <TableContainer component={Paper}>
           <Table>
             <TableHead

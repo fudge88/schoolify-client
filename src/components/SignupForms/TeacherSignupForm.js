@@ -4,6 +4,7 @@ import { useForm, Controller } from "react-hook-form";
 import { Link as RouterLink } from "react-router-dom";
 import { GET_YEAR_GROUP_DATA } from "../../graphql/query";
 import { TEACHER_SIGN_UP } from "../../graphql/mutations";
+import { Loading } from "../Loading";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
@@ -76,7 +77,11 @@ export const TeacherSignupForm = () => {
     }
   };
 
-  if (error) {
+  if (queryLoading) {
+    return <Loading />;
+  }
+
+  if (!queryLoading & queryError) {
     return <PageError />;
   }
 

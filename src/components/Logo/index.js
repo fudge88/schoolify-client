@@ -5,7 +5,7 @@ import parentLogo from "../../assets/img/parent.png";
 import teacherLogo from "../../assets/img/teacher.png";
 import { useAuth } from "../../context/AppProvider";
 
-export const Logo = ({}) => {
+export const Logo = () => {
   const { user } = useAuth();
 
   const appLogo = () => {

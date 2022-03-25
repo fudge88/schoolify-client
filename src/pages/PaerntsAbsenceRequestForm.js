@@ -1,10 +1,10 @@
-import { AbsenceForm } from '../components/AbsenceForm';
-import PageContainer from '../components/PageContainer';
+import { AbsenceForm } from "../components/AbsenceForm";
+import PageContainer from "../components/PageContainer";
 
 export const ParentsAbsenceRequestForm = () => {
-	return (
-		<PageContainer>
-			<AbsenceForm />
-		</PageContainer>
-	);
+  return (
+    <PageContainer>
+      <AbsenceForm />
+    </PageContainer>
+  );
 };
