@@ -1,6 +1,6 @@
 ![Schoolify](./src/assets/img/homeImg.png)
 
-You can view the deployed application [here](https://crush-app-2022.herokuapp.com/).
+You can view the deployed application [here](https://schoolify2022.herokuapp.com/).
 
 ## Table of Contents
 
@@ -11,8 +11,6 @@ You can view the deployed application [here](https://crush-app-2022.herokuapp.co
 - [Contributors](#contributors)
 - [Improvements](#improvements)
 - [Screenshots](#screenshots)
-  - [Wireframes](#wireframes)
-  - [Final Website](#final-website)
   - [References](#References)
 
 ## Summary
@@ -84,7 +82,7 @@ If you have your SSH keys set up, you are able to copy the link from the drop do
 (PLEASE NOTE: the client and the server should be created in separate repositories)
 
 ```
-git@github.com:DMO17/schoolify-client.git
+git@github.com:fudge88/schoolify-client.git
 git@github.com:DMO17/schoolify-server.git
 ```
 
@@ -135,6 +133,12 @@ Notable features of React include components, which are are autonomous, reusable
 - Ability to give reason for rejected absence requests
 - Creating a premium service, gives packaged add-ons
 - adding a learning portal where parents can print the curriculum, and extra learning material.
+
+## Screenshots
+
+![screenshot1](./src/assets/img/Capture.PNG)
+![screenshot2](./src/assets/img/Capture2.PNG)
+![screenshot3](./src/assets/img/Capture3.PNG)
 
 ## References
 
