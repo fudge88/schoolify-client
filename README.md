@@ -132,7 +132,8 @@ Notable features of React include components, which are are autonomous, reusable
 - ability to update medical records
 - Ability to give reason for rejected absence requests
 - Creating a premium service, gives packaged add-ons
-- adding a learning portal where parents can print the curriculum, and extra learning material.
+- adding a learning portal where parents can print the curriculum, and extra learning material
+- adding a safe space for zoom sessions, should parents evening be remote
 
 ## Screenshots
 
