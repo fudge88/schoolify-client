@@ -137,7 +137,7 @@ Notable features of React include components, which are are autonomous, reusable
 
 ## Screenshots
 
-![screenshot](./src/assets/img/schoolify.png)
+![screenshot](./src/assets/img/schoolify1.png)
 ![screenshot1](./src/assets/img/Capture.PNG)
 ![screenshot2](./src/assets/img/Capture2.PNG)
 ![screenshot3](./src/assets/img/Capture3.PNG)
